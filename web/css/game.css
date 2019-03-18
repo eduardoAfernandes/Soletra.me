@@ -1,0 +1,199 @@
+* {
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+.caixa {
+    width: 100%;
+    height: auto;
+    background-color: rgba(168, 168, 168, 0.8);
+    box-shadow: 2px 5px black;
+    border-radius: 0px 0px 25px 25px;
+}
+
+.h3,
+.div {
+    text-align: center;
+    line-height: 1.5;
+    color: black;
+    font-weight: 900;
+}
+
+.caixaDicas {
+    position: relative;
+    width: 100%;
+    height: 85vh;
+    background-color: rgba(168, 168, 168, 0.8);
+    color: white;
+    box-shadow: 2px 5px black;
+    border-radius: 25px;
+    padding-top: 15px;
+
+}
+.tipsLenght{
+    color: red;
+    width: 390px;
+    text-align: right;
+    text-shadow: 2px 1px black;
+    background-color: rgba(255,255,0,0.5);
+    position: absolute;
+    padding: 8px;
+    font-size: 17px;
+    left: -215%;
+    top: 3%;
+    display: none;
+    background-image: url("../img/sphinx.png");
+    background-repeat: no-repeat;
+    background-position: 5px;
+    background-size: 24px;
+
+}
+.tipsNextLetter{
+    color: red;
+    width: 390px;
+    text-align: right;
+    text-shadow: 2px 1px black;
+    background-color: rgba(255,255,0,0.5);
+    padding: 8px;
+    font-size: 17px;
+    position: absolute;
+    left: -215%;
+    top: 12%;
+    display: none;
+    background-image: url("../img/sphinx.png");
+    background-repeat: no-repeat;
+    background-position: 5px;
+    background-size: 24px;
+
+}
+
+.btnMostrar{
+    margin-top: 10%;
+}
+.btnSpanDicas,
+.btnSpanPular{
+    position: relative;
+}
+
+.spanDicas{
+    color: black;
+    font-weight: 800;
+    position: absolute;
+    left: 5%;
+    top:60%;
+    padding: 3px;
+    background-color: rgba(168, 255, 181, 0.8);
+    border-radius: 7px;
+    padding: 6px;
+}
+.spanPular{
+    color: black;
+    font-weight: 800;
+    position: absolute;
+    left: 18%;
+    top: 60%;
+    padding: 2px;
+    background-color: rgba(168, 255, 181, 0.8);
+    border-radius: 7px;
+    padding: 6px;
+
+}
+.inputUser{
+    text-align: center;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 3%;
+    box-shadow: 3px 3px black;
+    border: none;
+    border-bottom: 3px solid black;
+    width: 120%;
+    height: 40px;
+    transition: 1s all;
+    text-transform: lowercase;
+    position: relative;
+    background-image: url("../img/sphinx.png");
+    background-repeat: no-repeat;
+    background-position: 95%;
+    background-size: 24px;
+
+}
+.inputUser:focus{
+    background-color: rgba(255,255,255,0.8);
+}
+.caixaGame{
+    height: 85vh;
+    background-color: rgba(168, 168, 168, 0.8);
+    box-shadow: 2px 5px black;
+    border-radius: 25px;
+}
+
+.caixaInput{
+    margin-top: 10%;
+    width: 400px;
+    display: flex;
+    flex-flow: row;
+    position: relative;
+
+}
+
+
+.btnMostrar,
+.btnPular,
+.btnRanking,
+.btnDicas{
+    color: black;
+    font-weight: 800;
+    padding: 10px !important;
+    width: 85% !important;
+    border-radius: 5% ;
+    margin-bottom: 20% !important;
+    font-size: 15px !important;
+    background-color: gray;
+    border: none;
+    border-bottom: 3px solid black;
+    transition: 0.7s;
+    /*animation-name:;*/
+    animation-duration: 0.1s;
+    animation-iteration-count: infinite;
+    box-shadow: 2px 2px 2px 2px black;
+
+}
+.imgConfWord:active{
+    transform: scale(0.9);
+}
+
+.btnMostrar:hover,
+.btnPular:hover,
+.btnRanking:hover,
+.btnDicas:hover{
+    animation-name: animeBtn;
+    font-weight: 900;
+    border-radius: 15%;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+.imgMicrofone{
+    border: 1px solid black;
+    border-radius: 100%;
+    box-shadow: 2px 2px black;
+    padding: 10px;
+    background-color: rgba(141, 131, 119, 0.4);
+}
+.imgMicrofone:active{
+    transform: scale(0.9);
+    box-shadow: 1px 2px black;
+}
+
+
+@keyframes animeBtn {
+    0% {
+        transform: rotate(2deg);
+    }
+    50% {
+
+        transform: rotate(-2deg);
+    }
+    100% {
+        transform: translate(2px);
+    }
+}

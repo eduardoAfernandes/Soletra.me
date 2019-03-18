@@ -1,0 +1,26 @@
+.sphinx {
+    box-sizing: border-box;
+    width: 85px;
+    border-radius: 100px;
+    opacity: 0.3;
+    margin: 0px 210px;
+    transition: 1.2s;
+    animation-name: anime;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes anime {
+    0% {
+        box-shadow: 4px 4px 4px rgba(226, 186, 98, 0.0);
+        opacity: 0.1;
+    }
+    50% {
+        box-shadow: 4px 4px 10px rgba(226, 186, 98, 0.9);
+        opacity: 0.9;
+    }
+    100% {
+        box-shadow: 4px 4px 4px rgba(226, 186, 98, 0.0);
+        opacity: 0.1;
+    }
+}

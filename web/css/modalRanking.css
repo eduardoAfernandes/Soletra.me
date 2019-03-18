@@ -1,0 +1,84 @@
+
+.modalContainer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2100;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(168, 168, 168, 0.5);
+    overflow: auto;
+    padding: 5%;
+    padding-top: 2%;
+}
+.modalContainer.mostrar{
+    display: flex;
+}
+.modal{
+    background-color: rgba(168, 168, 168, 0.8);
+    width: 60%;
+    min-width: 300px;
+    padding: 30px;
+
+    margin-top: auto;
+    border: 5px solid black;
+    box-shadow: 3px 3px black;
+    position: relative;
+    border-radius: 5%;
+    border-top-right-radius: 0%;
+}
+.closeModal{
+    position: absolute;
+    font-size: 30px;
+    border: 2px solid black;
+    box-shadow: 2px 2px red;
+    border-radius: 100%;
+    padding: 3px;
+    top: -23px;
+    left: 98%;
+    background-color: antiquewhite;
+    cursor: pointer;
+
+}
+.closeModal:active{
+    transform: scale(0.9);
+}
+.mostrar.modal{
+    animation: modal ;
+}
+.imgModal{
+    margin: 30px;
+}
+.btnModal{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5% 10%;
+    background-color: rgba(255,255,0,0.5);
+    box-shadow: 3px 3px black;
+
+}
+@keyframes modal {
+    from{
+        opacity: 0;
+        transform: translate3d(0,-60px,0);
+    }
+
+    to{
+        opacity: 1;
+        transform: translate3d(0,0,0);
+
+    }
+
+}
+.h1Modal{
+    font-size: 30px;
+    background-image: url("../img/sphinx.png");
+    background-repeat: no-repeat;
+    background-size: 32px;
+    background-position: 70%;
+
+}

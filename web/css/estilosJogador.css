@@ -1,0 +1,302 @@
+* {font-family: 'Orbitron', sans-serif;}
+
+.caixaRegistro, .caixaSobre {
+    background-color: rgba(168, 168, 168, 0.8); 
+    padding: 20px 40px;
+    margin-top: 5px;
+    border-radius: 5%;
+    height: 750px;
+}
+table{
+   border-spacing: 10px;
+    margin: auto;
+}
+td{
+    padding-top: 15px;
+}
+
+p {
+    text-align: justify;
+    font-size: 16px;
+    
+}
+
+input[type="text"],
+input[type="password"], input[type="email"] {
+    border: none;
+    padding: 12px;
+    border-radius: 10%;
+    font-size: 10px;
+    height: 3px;
+    width: 100%;
+    text-align: right;
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 1px 1px 20px 5px rgba(0, 0, 0, 0.79);
+}
+
+select{
+    border-radius: 10%;
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 1px 1px 20px 5px rgba(0, 0, 0, 0.79);
+    margin: 3px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
+    transition-duration: 1.5s;
+    box-shadow: 1px 1px 20px 10px rgba(0, 0, 0, 0.88);
+    letter-spacing: 1.0px;
+}
+
+
+label {
+    font-size: 18px;
+    text-align: left;
+    text-shadow: 1px 1px black;
+    font-weight: 500;
+    transition: 0.7s;
+}
+
+.botaoRegistrar {
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10%;
+    padding: 5px;
+    text-shadow: 1px 1px black;
+    background-color: #d8b25e;
+    box-shadow: 1px 1px 20px 5px rgba(0, 0, 0, 0.8);
+    transition: 0.7s;
+    letter-spacing: 1.4px;
+    font-weight: bold;
+}
+
+.botaoLogin{
+    margin: 25px 35px;
+    cursor: pointer;
+    border-radius: 10%;
+    padding: 2px 7px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 1px 1px 20px 5px rgba(0, 0, 0, 0.8);
+    transition: 0.7s;
+    letter-spacing: 1.4px;
+}
+
+.jConta {
+    margin-left: 70px;
+}
+
+.botaoRegistrar:hover {
+    border-radius: 15%;
+    letter-spacing: 2.9px;
+    box-shadow: 2px 2px 17px 6px rgba(0, 0, 0, 0.9);
+}
+
+.botaoLogin:hover{
+    border-radius: 15px;
+    box-shadow: 2px 2px 17px 6px rgba(0, 0, 0, 0.9);
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.separator::before,
+.separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #000;
+}
+
+.separator::before {
+    margin-right: .25em;
+}
+
+.separator::after {
+    margin-left: .25em;
+}
+
+h1 {
+    font-size: 30px;
+    text-shadow: 1px 1px black;
+
+}
+
+.cad {
+   opacity: 0.6;
+   text-align: center;
+}
+
+.user {
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 2px 2px 2px #4bd863;
+    animation-name: brilhaNome;
+    animation-duration: 4.1s;
+    animation-iteration-count: infinite;
+}
+
+h4 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.dificuldade {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.difBotao {
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 0px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.7s;
+
+}
+
+.jogarBotao {
+    background-color: antiquewhite;
+    padding: 10px 30px;
+    margin: 0px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.7s;
+    animation-name:empty ;
+    animation-duration: 0.1s;
+    animation-iteration-count: infinite;
+}
+
+.jogarBotao:hover {
+    animation-name: anime2;
+    background-color: rgba(124, 252, 0, 0.99);
+
+}
+
+.difBotao:hover {
+
+    box-shadow: 2px 2px 7px rgba(255, 166, 166, 0.54);
+    transform: scale(1.1);
+}
+
+.verde:hover {
+    background-color: rgba(124, 252, 0, 0.99);
+}
+
+.amarelo:hover {
+    background-color: yellow;
+}
+
+.vermelho:hover {
+    background-color: orangered;
+}
+
+#dificuldade, #nomePrincipal, #pontuacao {
+    background-color: rgba(250, 235, 215, 0.55);
+    padding: 10px;
+    border-radius: 15%;
+}
+
+@keyframes anime2 {
+    0% {
+        transform: rotate(2deg);
+    }
+    50% {
+
+        transform: rotate(-2deg);
+    }
+    100% {
+        transform: translate(2px);
+    }
+}
+
+@keyframes brilhaNome {
+    0% {
+        text-shadow: 2px 2px 2px #4bd863;
+    }
+    50% {
+
+        text-shadow: 3px 4px 3px rgba(216, 148, 41, 0.72);
+    }
+    100% {
+        text-shadow: 2px 2px 2px #4bd863;
+    }
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.trPlayer {
+    background-color: rgba(168, 255, 181, 0.5);
+    border-radius: 20px;
+}
+
+td {
+    padding: 0px 5px;
+}
+
+.colocacao {
+    width: 5%;
+}
+
+.nome {
+
+}
+
+.pontos {
+    width: 30%;
+    text-align: right;
+}
+
+.saida {
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+    text-shadow: 2px 2px rgba(255, 0, 0, 0.29);
+}
+
+.jog {
+    opacity: 0.6;
+    margin: auto;
+}
+
+.jog:hover{
+    opacity: 0.9;
+    cursor: pointer;
+    transition: 0.7s;
+    animation-name: anime2;
+    animation-duration: 0.1s;
+    animation-iteration-count: infinite;
+    background-color: rgba(124, 252, 0, 0.59);
+    padding: 5px;
+
+}
+
+.avisoJogar{
+    transform: translateY(-15px);
+}
+
+
+
+/*@media only screen and (min-width:200px){*/
+    /*body {*/
+        /*background-image: url(../img/background/letters/background-big-1.jpg);*/
+        /*background-size: cover;*/
+        /*background-repeat: repeat;*/
+        /*!*height: 100vh;*!*/
+    /*}*/
+/*}*/
+/*@media only screen and (min-width:1000px) {*/
+    /*body {*/
+        /*background-image: url(../img/background/letters/background-big-1.jpg);*/
+        /*background-size: auto;*/
+        /*background-repeat: no-repeat;*/
+        /*!*height: 100vh;*!*/
+    /*}*/
+/*}*/

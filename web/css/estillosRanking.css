@@ -1,0 +1,65 @@
+* {
+    font-family: 'Orbitron', sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+nav {
+    background-color: rgba(255,255,0,0.4);
+    border-bottom-left-radius: 70%;
+    border-bottom-right-radius: 70%;
+    text-align: center;
+    height: 60px;
+    box-shadow: 1px 1px rgba(255,255,0,0.5);
+}
+
+footer {
+    background-color: rgba(173,255,47,1);
+    border-top-left-radius: 70%;
+    border-top-right-radius: 70%;
+    height:90px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
+}
+
+
+ul {
+    padding-top: 13px;
+    text-shadow: 3px 3px red;
+    font-size: 32px;
+    font-weight: bolder;
+}
+.posicao1{
+    background-image: url(../img/gold-medal.png);
+}
+
+.posicao2{
+    background-image: url(../img/silver-medal.png);
+}
+.posicao3{
+    background-image: url(../img/bronze-medal.png);
+}
+.posicao1, .posicao2,.posicao3{
+    background-repeat: no-repeat;
+    background-position: 60px;
+}
+
+.heightBorda{
+    height: 30px;
+    border-bottom: 1px solid black;
+}
+p {
+    text-align: center;
+    font-weight: 900;
+}
+.rounded input[type="button"] {
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: 1s all;
+    cursor: pointer;
+}

@@ -1,0 +1,158 @@
+* {font-family: 'Orbitron', sans-serif;}
+
+.caixaRegistro, .caixaSobre {
+    background-color: rgba(168, 168, 168, 0.8); 
+    padding: 20px 40px;
+    margin-top: 20px;
+    border-radius: 5%;
+    height: 700px;
+}
+table{
+   border-spacing: 10px;
+    margin: auto;
+}
+td{
+    padding-top: 27px;
+    
+}
+
+p {
+    text-align: justify;
+    font-size: 18px;
+    
+}
+
+h4 {
+    text-align: center;
+    font-size: 22px;
+}
+
+input[type="text"],
+input[type="password"], input[type="email"] {
+    border: none;
+    padding: 15px;
+    border-radius: 10%;
+    font-size: 10px;
+    height: 3px;
+    width: 100%;
+    text-align: right;
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 1px 1px 20px 5px rgba(0, 0, 0, 0.79);
+}
+
+select{
+    border-radius: 10%;
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 1px 1px 20px 5px rgba(0, 0, 0, 0.79);
+    margin: 3px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
+    transition-duration: 1.5s;
+    box-shadow: 1px 1px 20px 10px rgba(0, 0, 0, 0.88);
+    letter-spacing: 1.0px;
+}
+
+
+label {
+    font-size: 20px;
+    text-align: left;
+    text-shadow: 1px 1px black;
+    font-weight: 500;
+    transition: 0.7s;
+}
+
+.botaoRegistrar {
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10%;
+    padding: 15px;
+    text-shadow: 1px 1px black;
+    background-color: #d8b25e;
+    box-shadow: 1px 1px 20px 5px rgba(0, 0, 0, 0.8);
+    transition: 0.7s;
+    letter-spacing: 1.4px;
+    font-weight: bold;
+}
+
+.botaoLogin{
+    margin: 25px 35px;
+    cursor: pointer;
+    border-radius: 10%;
+    padding: 2px 7px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 1px 1px 20px 5px rgba(0, 0, 0, 0.8);
+    transition: 0.7s;
+    letter-spacing: 1.4px;
+}
+
+.jConta {
+    margin-left: 70px;
+}
+
+.botaoRegistrar:hover {
+    border-radius: 15%;
+    letter-spacing: 2.9px;
+    box-shadow: 2px 2px 17px 6px rgba(0, 0, 0, 0.9);
+}
+
+
+.botaoLogin:hover{
+    border-radius: 15px;
+    box-shadow: 2px 2px 17px 6px rgba(0, 0, 0, 0.9);
+    transform: scale(1.2);
+    background-color: rgba(187, 240, 201, 0.9);
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.separator::before,
+.separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #000;
+}
+
+.separator::before {
+    margin-right: .25em;
+}
+
+.separator::after {
+    margin-left: .25em;
+}
+
+h1 {
+    font-size: 30px;
+    text-shadow: 1px 1px black;
+
+}
+
+.cad {
+   opacity: 0.6;
+   text-align: center;
+}
+
+
+
+/*@media only screen and (min-width:200px){*/
+    /*body {*/
+        /*background-image: url(../img/background/letters/background-big-1.jpg);*/
+        /*background-size: cover;*/
+        /*background-repeat: repeat;*/
+        /*!*height: 100vh;*!*/
+    /*}*/
+/*}*/
+/*@media only screen and (min-width:1000px) {*/
+    /*body {*/
+        /*background-image: url(../img/background/letters/background-big-1.jpg);*/
+        /*background-size: auto;*/
+        /*background-repeat: no-repeat;*/
+        /*!*height: 100vh;*!*/
+    /*}*/
+/*}*/

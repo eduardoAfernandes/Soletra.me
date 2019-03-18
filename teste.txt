@@ -1,0 +1,2 @@
+1-> Chave Configurada [x]
+2-> GitKraken

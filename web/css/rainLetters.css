@@ -1,0 +1,164 @@
+.rain-letters {
+    height: 100vh !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+
+.rain-letters img {
+    position: absolute;
+}
+
+.rain-letters img.down {
+    position: absolute !important;
+    top: -20%;
+}
+
+@keyframes animationdown {
+    to {
+        top: 90%;
+    }
+}
+
+@-webkit-keyframes animationdown {
+    to {
+        top: 90%;
+    }
+}
+
+.rain-letters .img1 {
+    left: 3%;
+    -webkit-animation: animationdown 4s linear 1.5s infinite;
+    -moz-animation: animationdown 4s linear 1.5s infinite;
+    animation: animationdown 4s linear 1.5s infinite;
+    width: 44px;
+    height: 44px;
+}
+
+.rain-letters .img2 {
+    left: 9%;
+    -webkit-animation: animationdown 5.5s ease 1s infinite;
+    -moz-animation: animationdown 5.5s ease 1s infinite;
+    animation: animationdown 5.5s ease 1s infinite;
+    width: 30px;
+    height: 30px;
+}
+
+.rain-letters .img3 {
+    left: 12%;
+    -webkit-animation: animationdown 6s ease-in infinite;
+    -moz-animation: animationdown 6s ease-in infinite;
+    animation: animationdown 6s ease-in infinite;
+    width: 40px;
+    height: 40px;
+}
+
+.rain-letters .img4 {
+    left: 19%;
+    -webkit-animation: animationdown 5s ease-out 4s infinite;
+    -moz-animation: animationdown 5s ease-out 4s infinite;
+    animation: animationdown 5s ease-out 4s infinite;
+    width: 35px;
+    height: 35px;
+}
+
+.rain-letters .img5 {
+    left: 25%;
+    -webkit-animation: animationdown 3.7s ease-in-out 2.5s infinite;
+    -moz-animation: animationdown 3.7s ease-in-out 2.5s infinite;
+    animation: animationdown 3.7s ease-in-out 2.5s infinite;
+    width: 29px;
+    height: 29px;
+}
+
+.rain-letters .img6 {
+    left: 31%;
+    -webkit-animation: animationdown 4.5s linear 1s infinite;
+    -moz-animation: animationdown 4.5s linear 1s infinite;
+    animation: animationdown 4.5s linear 1s infinite;
+    width: 35px;
+    height: 35px;
+}
+
+.rain-letters .img7 {
+    left: 40%;
+    -webkit-animation: animationdown 4.7s ease infinite;
+    -moz-animation: animationdown 4.7s ease infinite;
+    animation: animationdown 4.7s ease infinite;
+    width: 45px;
+    height: 45px;
+}
+
+.rain-letters .img8 {
+    left: 49%;
+    -webkit-animation: animationdown 3.2s ease-in 0.5s infinite;
+    -moz-animation: animationdown 3.2s ease-in 0.5s infinite;
+    animation: animationdown 3.2s ease-in 0.5s infinite;
+    width: 25px;
+    height: 25px;
+}
+
+.rain-letters .img9 {
+    left: 53%;
+    -webkit-animation: animationdown 3s ease-in-out infinite;
+    -moz-animation: animationdown 3s ease-in-out infinite;
+    animation: animationdown 3s ease-in-out infinite;
+    width: 30px;
+    height: 30px;
+}
+
+.rain-letters .img10 {
+    left: 60%;
+    -webkit-animation: animationdown 2.9s ease-out 1.5s infinite;
+    -moz-animation: animationdown 2.9s ease-out 1.5s infinite;
+    animation: animationdown 2.9s ease-out 1.5s infinite;
+    width: 40px;
+    height: 40px;
+}
+
+.rain-letters .img11 {
+    left: 69%;
+    -webkit-animation: animationdown 4s linear 3s infinite;
+    -moz-animation: animationdown 4s linear 3s infinite;
+    animation: animationdown 4s linear 3s infinite;
+    width: 30px;
+    height: 30px;
+}
+
+.rain-letters .img12 {
+    left: 74%;
+    -webkit-animation: animationdown 4s ease 1s infinite;
+    -moz-animation: animationdown 4s ease 1s infinite;
+    animation: animationdown 4s ease 1s infinite;
+    width: 50px;
+    height: 50px;
+}
+
+.rain-letters .img13 {
+    left: 80%;
+    -webkit-animation: animationdown 3.5s ease-out 1s infinite;
+    -moz-animation: animationdown 3.5s ease-out 1s infinite;
+    animation: animationdown 3.5s ease-out 1s infinite;
+    width: 33px;
+    height: 33px;
+}
+
+.rain-letters .img14 {
+    left: 87%;
+    -webkit-animation: animationdown 4.1s ease-in 1.5s infinite;
+    -moz-animation: animationdown 4.1s ease-in 1.5s infinite;
+    animation: animationdown 4.1s ease-in 1.5s infinite;
+    width: 40px;
+    height: 40px;
+}
+
+.rain-letters .img15 {
+    left: 93%;
+    -webkit-animation: animationdown 2s linear 1s infinite;
+    -moz-animation: animationdown 2s linear 1s infinite;
+    animation: animationdown 2s linear 1s infinite;
+    width: 20px;
+    height: 20px;
+}
+
